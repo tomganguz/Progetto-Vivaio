@@ -1,4 +1,4 @@
-#
+# Rimozione file cache e file compilati dentro target
 vivaio/.settings/
 vivaio/target/
 
