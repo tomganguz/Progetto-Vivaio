@@ -1,5 +1,4 @@
-# Rimozione file cache e file compilati dentro target
-vivaio/.settings/
+# Rimozione file compilati
 vivaio/target/
 
 # Compiled class file
