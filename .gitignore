@@ -1,6 +1,3 @@
-# Rimozione file compilati
-vivaio/target/
-
 # Compiled class file
 *.class
 
