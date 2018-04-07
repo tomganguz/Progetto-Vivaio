@@ -37,3 +37,4 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+vivaio/target/m2e-wtp/web-resources/META-INF/maven/gruppo4/vivaio/pom.properties

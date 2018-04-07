@@ -36,14 +36,24 @@
 	
 	<div class="container">
 	
+		<!-- INIZIO NAVBAR -->
+	
 		<nav aria-label="breadcrumb">
   			<ol class="breadcrumb">
     			<li class="breadcrumb-item active" aria-current="page">Home</li>
+    			<li class="breadcrumb-item"><a href="info.html">News</a></li>
+    			<li class="breadcrumb-item"><a href="info.html">Turni</a></li>
+    			<li class="breadcrumb-item"><a href="info.html">Agenda</a></li>
+    			<li class="breadcrumb-item"><a href="info.html">Mappa</a></li>
+    			<li class="breadcrumb-item"><a href="info.html">Categorie</a></li>
+    			<li class="breadcrumb-item"><a href="info.html">Ricerca</a></li>
     			<li class="breadcrumb-item"><a href="info.html">Info</a></li>
-    			<!-- Trigger del modale login -->
-    			<li class="breadcrumb-item"><a data-toggle="modal" data-target="#modalelogin">Login</a>
+    			<!-- Trigger del modale login TODO: Sistemare il link come gli altri -->
+    			<li class="breadcrumb-item"><a data-toggle="modal" data-target="#modalelogin" style="color: red;">Login</a>
   			</ol>
   		</nav>
+  		
+  		<!-- FINE NAVBAR -->
   		
   		<!--  INIZIO MODALE LOGIN -->
   		
