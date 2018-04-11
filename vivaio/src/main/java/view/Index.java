@@ -1,5 +1,8 @@
 package view;
 
+import form.Login;
+import form.Registrazione;
+
 import java.io.IOException;
 
 import javax.servlet.RequestDispatcher;
@@ -12,9 +15,20 @@ public class Index extends HttpServlet {
 	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
-				
+		resp.setContentType("text/html");
+		
+		String nome = req.getParameter("username");
+		String pw = req.getParameter("password");
+
         String nextJSP = "/index.jsp";
+        
+        if (Login.accedi(req.getParameter("username"), req.getParameter("password")) == 0) {
+        	req.setAttribute("logged", "1");
+        } else {
+        	req.setAttribute("logged", "0");
+        }
+        
+        
 		
 		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJSP);
 		dispatcher.forward(req, resp);

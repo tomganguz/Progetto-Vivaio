@@ -94,6 +94,14 @@
 		
 		<!-- FINE MODALE LOGIN -->
 		
+		<!-- ALERT LOGGATO -->
+		<% if(request.getAttribute("logged") == "1") { %>
+		<div class="alert alert-success" role="alert">
+			Accesso effettuato con successo!
+		</div>
+		<% } %>
+		<!-- FINE ALERT LOGGATO -->
+		
   		<div class="alert alert-warning" role="alert">
   			<strong>Pagina attualmente in costruzione</strong>
 		</div>

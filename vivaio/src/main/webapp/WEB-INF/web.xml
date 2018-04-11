@@ -6,11 +6,17 @@
   <display-name>Progetto Vivaio</display-name>
   <servlet>
   	<servlet-name>index</servlet-name>
-  	<servlet-class>main.Index</servlet-class>
+  	<servlet-class>view.Index</servlet-class>
   </servlet>
   
   <servlet-mapping>
   	<servlet-name>index</servlet-name>
   	<url-pattern>/index</url-pattern>
   </servlet-mapping>
+  
+  
+  <resource-env-ref>
+    <resource-env-ref-name>jdbc/yourdb</resource-env-ref-name>
+    <resource-env-ref-type>javax.sql.DataSource</resource-env-ref-type>
+</resource-env-ref>
 </web-app>
