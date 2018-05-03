@@ -1,0 +1,224 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+	<!-- Bootstrap css e js -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	
+	<!--  TAG TIPOLOGIA DOCUMENTO E TITOLO -->
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Progetto Vivaio</title>
+	
+	<!-- Vari Script JS -->
+	<script>
+		function LoginSubmit() {
+			document.getElementById("loginf").submit();
+		}
+	</script>
+	
+	
+</head>
+<body>
+
+	<br/>
+	
+	<div style="text-align: center;">
+		<h1> Gestione Vivaio </h1>		
+	</div>
+	
+	<br/>
+	
+	<div class="container">
+	
+		<!-- INIZIO NAVBAR -->
+	
+		<nav aria-label="breadcrumb">
+  			<ol class="breadcrumb">
+    			<li class="breadcrumb-item active" aria-current="page">Home</li>
+    			<li class="breadcrumb-item"><a href="info.html">News</a></li>
+    			<li class="breadcrumb-item"><a href="info.html">Turni</a></li>
+    			<li class="breadcrumb-item"><a href="info.html">Agenda</a></li>
+    			<li class="breadcrumb-item"><a href="info.html">Mappa</a></li>
+    			<li class="breadcrumb-item"><a href="info.html">Categorie</a></li>
+    			<li class="breadcrumb-item"><a href="info.html">Ricerca</a></li>
+    			<li class="breadcrumb-item"><a href="info.html">Info</a></li>
+    			<!-- Trigger del modale login TODO: Sistemare il link come gli altri -->
+    			<li class="breadcrumb-item"><a data-toggle="modal" data-target="#modalelogin" style="color: red;">Login</a>
+  			</ol>
+  		</nav>
+  		
+  		<!-- FINE NAVBAR -->
+
+	<br/>
+	
+	<div style="text-align: center;">
+		<h1> Progetto Vivaio </h1>		
+	</div>
+	
+	<br/>
+	
+	<div class="container">
+	
+		<nav aria-label="breadcrumb">
+  			<ol class="breadcrumb">
+    			<li class="breadcrumb-item"><a href="/vivaio">Home</a></li>
+    			<li class="breadcrumb-item  active">Info</li>
+  			</ol>
+  		</nav>
+		
+		
+		
+	<table class="table">
+  <thead>
+    <tr align="center">
+      <th scope="col">   DIPENDENTI   </th>
+      <th scope="col">Lun <br/> 1 </th>
+      <th scope="col">Mar <br/> 2 </th>
+      <th scope="col">Mer <br/> 3 </th>
+      <th scope="col">Gio <br/> 4 </th>
+      <th scope="col">Ven <br/> 5 </th>
+      <th scope="col">Sab <br/> 6 </th>
+      <th scope="col">Dom <br/> 7 </th>
+      <th scope="col">Lun <br/> 8 </th>
+      <th scope="col">Mar <br/> 9 </th>
+      <th scope="col">Mer <br/> 10 </th>
+      <th scope="col">Gio <br/> 11 </th>
+      <th scope="col">Ven <br/> 12 </th>
+      <th scope="col">Sab <br/> 13 </th>
+      <th scope="col">Dom <br/> 14 </th>
+      <th scope="col">Lun <br/> 15 </th>
+      <th scope="col">Mar <br/> 16 </th>
+      <th scope="col">Mer <br/> 17 </th>
+      <th scope="col">Gio <br/> 18 </th>
+      <th scope="col">Ven <br/> 19 </th>
+      <th scope="col">Sab <br/> 20 </th>
+      <th scope="col">Dom <br/> 21 </th>
+      <th scope="col">Lun <br/> 22 </th>
+      <th scope="col">Mar <br/> 23 </th>
+      <th scope="col">Mer <br/> 24 </th>
+      <th scope="col">Gio <br/> 25 </th>
+      <th scope="col">Ven <br/> 26 </th>
+      <th scope="col">Sab <br/> 27 </th>
+      <th scope="col">Dom <br/> 28 </th>
+      <th scope="col">Lun <br/> 29 </th>
+      <th scope="col">Mar <br/> 30 </th>
+      <th scope="col">Mer <br/> 31 </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <th scope="row">Luca Bianchi</th>
+      <td>M</td>
+      <td>P</td>
+      <td>M</td>
+      <td>P</td>
+      <td>P</td>
+      <td>M</td>
+      <td>/</td>
+      <td>P</td>
+      <td>M</td>
+      <td>P</td>
+      <td>P</td>
+      <td>M</td>
+      <td>P</td>
+      <td>/</td>
+      <td>P</td>
+      <td>M</td>
+      <td>P</td>
+      <td>P</td>
+      <td>M</td>
+      <td>P</td>
+      <td>/</td>
+      <td>P</td>
+      <td>M</td>
+      <td>P</td>
+      <td>P</td>
+      <td>M</td>
+      <td>P</td>
+      <td>/</td>
+      <td>P</td>
+      <td>M</td>
+      <td>P</td>
+    </tr>
+    
+    <tr align="center">
+      <th scope="row">Mario Brambilla</th>
+      <td>P</td>
+      <td>P</td>
+      <td>M</td>
+      <td>P</td>
+      <td>M</td>
+      <td>M</td>
+      <td>/</td>
+      <td>P</td>
+      <td>M</td>
+      <td>P</td>
+      <td>M</td>
+      <td>M</td>
+      <td>P</td>
+      <td>/</td>
+      <td>P</td>
+      <td>M</td>
+      <td>M</td>
+      <td>P</td>
+      <td>M</td>
+      <td>M</td>
+      <td>/</td>
+      <td>P</td>
+      <td>M</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>/</td>
+      <td>M</td>
+      <td>P</td>
+      <td>M</td>
+    </tr>
+    
+    <tr align="center">
+      <th scope="row">Stefano Sau</th>
+      <td>F</td>
+      <td>F</td>
+      <td>F</td>
+      <td>P</td>
+      <td>P</td>
+      <td>P</td>
+      <td>/</td>
+      <td>M</td>
+      <td>P</td>
+      <td>M</td>
+      <td>M</td>
+      <td>P</td>
+      <td>M</td>
+      <td>/</td>
+      <td>P</td>
+      <td>P</td>
+      <td>P</td>
+      <td>M</td>
+      <td>P</td>
+      <td>P</td>
+      <td>/</td>
+      <td>P</td>
+      <td>M</td>
+      <td>M</td>
+      <td>P</td>
+      <td>M</td>
+      <td>M</td>
+      <td>/</td>
+      <td>P</td>
+      <td>M</td>
+      <td>M</td>
+    </tr>
+    
+  </tbody>
+</table>
+	
+</body>
+</html>
